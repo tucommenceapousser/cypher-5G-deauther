@@ -33,9 +33,10 @@ volatile bool sniffCallbackTriggered = false;
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 // Pins
-#define BTN_DOWN PA27
-#define BTN_UP PA12
-#define BTN_OK PA13
+#define BTN_DOWN PA30
+#define BTN_UP PA14
+#define BTN_OK PA12
+
 
 
 #define TOTAL_MENU_ITEMS 5
@@ -1540,4 +1541,5 @@ void loop() {
     }
   }
 }
+
 
